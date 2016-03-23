@@ -1,0 +1,17 @@
+{
+  "name": "has",
+  "version": "1.0.0",
+  "description": "has function",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "keywords": [
+    "has"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
