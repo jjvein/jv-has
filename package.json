@@ -1,5 +1,5 @@
 {
-  "name": "has",
+  "name": "jjvein-has",
   "version": "1.0.0",
   "description": "has function",
   "main": "index.js",
@@ -9,6 +9,10 @@
   "keywords": [
     "has"
   ],
+  "repostory": {
+    "type": "git",
+    "url": "git@github.com:jjvein/has.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
