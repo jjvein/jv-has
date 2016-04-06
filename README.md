@@ -5,11 +5,14 @@
 ```
 npm install jv-has
 ```
-### 
 
-判断： 
-1. 对象
-2. 数组
-3. 字符串
+### Introduction
+
+判断依据
+1. Object: hasOwnProperty
+2. 数组: find
+3. 字符串: indexOf
+
+
 
 
