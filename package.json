@@ -1,5 +1,5 @@
 {
-  "name": "jjvein-has",
+  "name": "jv-has",
   "version": "1.0.0",
   "description": "has function",
   "main": "index.js",
@@ -11,10 +11,10 @@
   ],
   "repostory": {
     "type": "git",
-    "url": "git@github.com:jjvein/has.git"
+    "url": "git@github.com:jjvein/jv-has.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "jjvein",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "^2.4.5"
   }

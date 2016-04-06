@@ -1,9 +1,19 @@
+var jvHas = require('../')
+var log = console.log, ret
 
-var has = require('../')
+ret = jvHas({}, 'hasOwnProperty')
+log(ret)
 
-console.dir([
-    has({}, 'hasOwnProperty'),
-    has(Object.prototype, 'hasOwnProperty'),
-    has([1, 2, 3], 4),
-    has({name: 'Jjvein', age: 24}, 'name')
-])
+ret = jvHas([1, 2, 3, 4], 4)
+log(ret)
+
+ret = jvHas({foo: 'foo', bar: 'bar'}, 'bar')
+log(ret)
+
+ret = jvHas(Object.prototype, 'hasOwnProperty')
+log(ret)
+
+ret = jvHas('hello', 'e')
+log(ret)
+
+
